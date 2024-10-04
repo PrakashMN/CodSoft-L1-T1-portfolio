@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif;
+    background-color: cornsilk;
+}
+
+.nav{
+    background-color: aqua;
+    display:flex;
+    width: 100%;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px 0px;
+    z-index: 1;
+}
+
+.nav ul {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav ul li{
+    list-style: none;
+    background-color: aqua;
+    padding: 1px 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    padding:10px 15px ;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.nav ul li a:hover{
+    
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+.logo{
+    display: flex;
+    margin-left: 20px;
+    background-color: aqua;
+}
+.logo h1{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 1px 10px;
+}
+.logo h1:hover{
+    box-shadow: 0px 0px 5px 5px white
+}
+.info{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.info h1{
+    margin-top: 20px;
+}
+
+.about{
+    margin-top: 20px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.fogg{
+    background-color: lightblue;
+}
+
+.about h1{
+    display: flex;
+    margin-left: 30%;
+
+}
+
+.about img{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-top: 100px;
+    height: 350px;
+    margin-left: 900px;
+    border-radius: 70px;
+}
+.img{
+    box-shadow: 0px 0px 5px 3px orange;
+}
+
+.about p{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: x-large;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.info h1{
+    color: #012866;
+
+}
+.info h4{
+    display: flex;
+    margin-top: 70px;
+    margin-left: -279px;
+    font-size: larger;
+}
+.info p{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -317px;
+    font-size: larger;
+}
+.wer{
+    margin-top: 20px;
+    margin-left: 45%;
+    font-size: x-large;
+    color: #012866;
+    font-family: "Montserrat", sans-serif;
+}
+
+.skills{
+    display: flex;
+    margin-left: 180px;
+    margin-top: -70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.skills h1{
+    color: #012866;
+    font-size: xx-large;
+}
+.skills ul{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.skills ul li{
+
+    margin-top: 10px;
+    margin-left: -370px;
+    font-size:larger ;
+    color: #012866;
+}
+.skills ul li a{
+    text-decoration: none;
+    font-family: "Playwrite DE Grund", cursive;
+    color: #000000;
+}
+
+.contact{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 80px;
+    color: #012866;
+}
+
+
+.contact ul{
+    margin-top: 100px;
+    margin-left: -285px;
+    margin-bottom: 60px;
+    line-height: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    padding: 1px 20px;
+    justify-content: space-between;
+}
+
+.contact ul li a:hover{
+    background-color: aqua;
+}
+
+.copyright {
+    padding-top: 5px;
+    background-color: aqua;
+    height: 80px;
+    color:black;
+    font-size:large;
+    text-align: center;
+}
